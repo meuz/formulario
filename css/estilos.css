@@ -1,0 +1,67 @@
+body {
+    background-image: url('../assets/images/fondo.jpg'); /* como estoy dentro de una carpeta debo usar el ../ para poder entrar a assets */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+html, body {
+    margin: 0;
+    overflow-y: auto;
+    height: 100%;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav{
+    border-bottom: 1px solid;
+}
+
+.margen_superior{
+    margin-top: 10px;
+}
+
+.formulario{
+    display: none;
+}
+
+#cntPrincipal{
+    border-radius: 50%;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+form ul li {
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+form ul li label {
+    color: #0d0d76;
+    font-weight: bold;
+}
+
+.ulInfo {
+    font-size: small;
+    margin-left: 10px;
+}
+
+#liContra {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.invalid-feedback {
+    margin-left: 10px;
+    
+}
